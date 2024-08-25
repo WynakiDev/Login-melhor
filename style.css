@@ -1,0 +1,102 @@
+body {
+    color: white;
+    background-image: url(/Imagens/fundo.jpg);
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+#login {
+    background-image: url(/Imagens/para\ login.jpg);
+    padding: 50px;
+    position: absolute;
+    flex-direction: row;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 1px 15px -4px rgba(0, 2, 0, 7);
+    outline: none;
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    margin-top: -30px;
+    text-shadow: 4px 4px 4px blueviolet;
+}
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+nav a:hover {
+    color: rgb(255, 64, 64);
+}
+.container {
+    padding: 0px 50px;
+}
+.cadas a:hover{
+    color: rgb(255, 67, 67);
+}
+.Email input {
+    border-radius: 25px;
+    border: none;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(87, 77, 87);
+    color: rgb(231, 45, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -20px;
+}
+.Senha input {
+    border-radius: 25px;
+    border: none;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(87, 77, 87);
+    color: rgb(231, 45, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -20px;
+}
+button {
+    border-radius: 25px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(109, 28, 109);
+    font-family: monospace;
+    margin-top: 10px; 
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+.cadas {
+    margin-top: 60px;
+}
+button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(121, 18, 180);
+}
+
+li{
+    text-shadow: 2px 2px rgb(0, 0, 0.45);
+}
+.Entrar a:hover{
+    color: rgb(255, 58, 58);
+}
+.Entrar p {
+    font-size: 13px;
+}
+input:focus{
+    outline: none;
+}
+input::placeholder{
+    color: rgb(172, 172, 172);
+}
